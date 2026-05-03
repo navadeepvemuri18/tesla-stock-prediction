@@ -80,6 +80,6 @@ See `requirements.txt` for the full list. Key libraries:
 6. Train Logistic Regression, SVM, and XGBoost models
 7. Evaluate and compare model accuracies
 
-## 📝 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
