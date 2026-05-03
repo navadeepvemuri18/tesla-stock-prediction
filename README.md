@@ -2,7 +2,7 @@
 
 A machine learning project that predicts Tesla (TSLA) stock price movement using historical data and multiple classification models.
 
-## 📊 Dataset
+##  Dataset
 
 `Tesla.csv` — 1,692 rows of daily Tesla stock data from **June 2010** to present, with the following columns:
 
@@ -16,19 +16,19 @@ A machine learning project that predicts Tesla (TSLA) stock price movement using
 | `Volume` | Number of shares traded |
 | `Adj Close` | Adjusted closing price |
 
-## 🤖 Models Used
+##  Models Used
 
 - **Logistic Regression**
 - **Support Vector Machine (SVC)**
 - **XGBoost Classifier**
 
-## 🔧 Features Engineered
+##  Features Engineered
 
 - Day, month, year extracted from date
 - Quarter-end indicator (`is_quarter_end`)
 - Price change and return features
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 tesla-stock-prediction/
@@ -38,7 +38,7 @@ tesla-stock-prediction/
 └── README.md                    # This file
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the repository
 
@@ -61,7 +61,7 @@ jupyter notebook Stock_Price_Prediction.ipynb
 
 > **Note:** The notebook originally loads data from `/content/Tesla.csv` (Google Colab path). If running locally, update the path to `Tesla.csv`.
 
-## 📦 Requirements
+##  Requirements
 
 See `requirements.txt` for the full list. Key libraries:
 
@@ -70,7 +70,7 @@ See `requirements.txt` for the full list. Key libraries:
 - `scikit-learn` — ML models and preprocessing
 - `xgboost` — gradient boosted classifier
 
-## 📈 Workflow
+##  Workflow
 
 1. Load and explore the Tesla CSV data
 2. Visualize price trends and feature distributions
